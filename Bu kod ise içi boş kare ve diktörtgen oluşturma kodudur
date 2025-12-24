@@ -1,0 +1,22 @@
+
+
+Console.WriteLine("lutfen uzunluk gırın:");
+int uzunluk = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("lutfen genıslık gırınız.");
+int genıslık = Convert.ToInt32(Console.ReadLine());
+
+for (int i = 1; i <= yukseklik; i++)
+{
+    for (int j = 1; j <= genislik; j++)
+    {
+        if (i == 1 || i == yukseklik || j == 1 || j == genislik)
+        {
+            Console.Write("* ");
+        }
+        else
+        {
+            Console.Write("  ");
+        }
+    }
+    Console.WriteLine();
+}
